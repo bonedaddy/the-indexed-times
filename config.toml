@@ -1,0 +1,26 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "The Indexed Times"
+theme = [ "terminal" ]
+staticDir = "static"
+enableRobotsTXT = "true"
+
+[params]
+  # source of content
+  description = "an unofficial newsletter for Indexed Finance"
+  contentTypeName = "blog"
+  themeColor = "green"
+  showMenuItems = 5
+  showLanguageSelector = false
+  fullWidthTheme = false
+  centerTheme = true
+  showLastupdate = false
+  enableGitInfo = true
+  favicon = "favicon.ico"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "The Indexed Times"
+    [languages.en.params.logo]
+      logoText = "Home"
